@@ -1,0 +1,178 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles2.css" />
+    </head>
+<div id="container">
+  <header class="header">
+ <u><h1>Survey form</h1></u>
+
+<p class="p"> This form records your experience in coding and update you with projects based on your prior experience. </p>
+  </header>
+  <form id="survey-form">
+<div class="user-info">
+  <strong><p id="p12">1. User Info <span class="clue1">(Important)</span</p></strong>
+<label id="name-label" for="name"> a. Name</label>
+<input type="text"
+id="name"
+class="user-info" 
+placeholder="please enter your name" required />
+<br>
+
+<label id="age" for="age">  b. Age <span class="clue">(Optional)</span></label>
+<input type="number"
+id="age"
+min="16"
+max="25"
+class="user-info"
+placeholder=""/>
+<br>
+
+<label id="student-id" for="Student-id">  c.Student ID</label>
+<input type="text"
+placeholder="1604-21-xxx-xxx" required
+class="user-info"
+id="Student-id" />
+<br>
+
+<label id="course" for="course">  c. Course</label> 
+<input type="text"
+required
+class="user-info"
+id="course"/>
+<br>
+</div>
+<div class="user-choice"><b><br>
+<p id="p2">2. Select your prefrence.</p></b>
+<select id="choice" name="choice" class="user-choice" required>
+<option disabled selected value>Select an option </option>
+<option selected value>a. Web developement</option>
+<option selected value>b. Game developement</option>
+<option selected value>c. Ar/Vr</option>
+<option selected value>d. Web 3.0</option>
+<option selected value>e. Cybersecurity</option>
+<option selected value>f.Other</option>
+</select>
+</div>
+<div class="option">
+<br><b><p>3. How many projects have you done till now. </p></b>
+<label>
+  <input
+  type="radio"
+  class="user-option"
+  name="input-radio"
+  value="Yet to make one"
+  checked/>  Yet to make one</label>
+  <br>
+<label>
+<input
+type="radio"
+class="user-option"
+name="input-radio"
+value="1-2"
+checked/>  1-2</label>
+<br>
+<label>
+  <input
+  type="radio"
+  class="user-option"
+  name="input-radio"
+  value="3-4"
+  checked/>  3-4</label>
+  <br>
+  <label>
+    <input
+    type="radio"
+    class="user-option"
+    name="input-radio"
+    value="5 and more"
+    checked/>  5 and more</label>
+    <br>
+</div>
+<div class="checkbox">
+ <b> <p>
+   4.  What do you prefer.<span class="clue">(Check all that apply)</span></b>
+  </p>
+  <label>
+  <input 
+  type="checkbox"
+  name="checkbox"
+  value="frontend projects"
+  class="user-checkbox">frontend projects</label>
+  
+
+  <label>
+    <input 
+    type="checkbox"
+    name="checkbox"
+    value="backend-end projects"
+    class="user-checkbox">backend projects</label>
+  
+    
+    <label>
+      <input 
+      type="checkbox"
+      name="checkbox"
+      value="data-visualization"
+      class="user-checkbox">data-visialization</label>
+      
+      
+      <label>
+        <input 
+        type="checkbox"
+        name="checkbox"
+        value="challenges"
+        class="user-checkbox">challenges</label>
+        
+        
+        <label>
+          <input 
+          type="checkbox"
+          name="checkbox"
+          value="additional courses"
+          class="user-checkbox">additional courses</label>
+          
+          
+          <label>
+            <input 
+            type="checkbox"
+            name="checkbox"
+            value="videos"
+            class="user-checkbox">videos</label>
+            
+            
+          <label>
+            <input 
+            type="checkbox"
+            name="checkbox"
+            value="wiki and forums"
+            class="user-checkbox">wiki and forums</label>
+            
+            
+          <label>
+            <input 
+            type="checkbox"
+            name="checkbox"
+            value="Other"
+            class="user-checkbox">other</label>
+            <br>
+
+        </label></div>
+        <div class="user-comments">
+          <br><b><p>Comments or Suggestions</p></b>
+          <textarea
+          placeholder="Enter your suggestions......"
+          id="comments"
+          class="comment"
+          name="comment"
+        ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit </button>
+          </div>
+        </form>
+      </div>
+    </body>
+  </html>
+  
